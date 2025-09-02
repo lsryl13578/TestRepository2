@@ -1,0 +1,70 @@
+# -----------------------------
+# Project & Build Files
+# -----------------------------
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# -----------------------------
+# STS / Eclipse
+# -----------------------------
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# -----------------------------
+# IntelliJ IDEA
+# -----------------------------
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# -----------------------------
+# NetBeans
+# -----------------------------
+/nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Spring Boot & Application Config
+# -----------------------------
+# 민감 정보 포함 파일은 절대 올리지 않음
+application.properties
+application.yml
+
+# 팀원 참고용 샘플 파일만 올림
+!application-example.properties
+!application-example.yml
+
+# -----------------------------
+# OS & 기타
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# Node / NPM / Frontend
+node_modules/
+dist/
+.env
