@@ -7,5 +7,5 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Service
 public class testService {
-	private String name;
+	private String testName;
 }
