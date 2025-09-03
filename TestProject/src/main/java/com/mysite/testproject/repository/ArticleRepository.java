@@ -1,4 +1,5 @@
 package com.mysite.testproject.repository;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.mysite.testproject.domain.Article;
